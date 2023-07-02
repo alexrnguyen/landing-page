@@ -80,7 +80,7 @@ img {
 
 .container-2 {
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .info-header {
@@ -97,12 +97,18 @@ img {
     gap: 52px;
 }
 
-.image {
+.image-container {
     display: flex;
     flex-direction: column;
-    max-width: 200px;
-    max-height: 200px;
     text-align: center;
+    max-width: 200px;
+    max-height: 250px;
+}
+
+.image {
+    align-self: center;
+    max-height: 200px;
+    max-width: 200px;
 }
 
 .container-3 {
