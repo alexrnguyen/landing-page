@@ -13,6 +13,7 @@ body {
 .nav {
     padding: 16px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -40,6 +41,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 230px;
     padding: 100px 0;
 }
@@ -94,6 +96,7 @@ img {
 .images {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 52px;
 }
 
